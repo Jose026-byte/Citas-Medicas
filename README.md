@@ -10,25 +10,16 @@ Clona el proyecto
 
 En la carpeta db es necesario agregar los siguientes archivos que servirán como bases de datos:
 
-    citas.csv
+    Cita.csv
     doctors.csv
     patients.csv
 
-La base de datos users.csv debe contener por lo menos un usuario para poder acceder al sistema de la siguiente manera:
+## Uso del programa
+Al iniciar la aplicación, se mostrará el menú principal con las siguientes opciones:
 
-    1,usuario,contraseña
-
-_NOTA: Es imporntante no usar espacios entre los separadores._
-
-Una vez hecho esto el sistema está listo para correr.
-
-## Guía de uso
-
-El sistema permite interactuar con 3 modelos:
-
-    Doctores
-    Pacientes
-    Citas
+    Registrar y gestionar doctores.
+    Registrar y gestionar pacientes. 
+    Crear, modificar y cancelar cita
 
 #### Crear
 Para crear un registro de cualquier de los modelos es necesario entrar al modelo que queramos crear y después seleccionar la opción agregar.
@@ -49,6 +40,6 @@ Esto regresará el registro encontrado y en caso de no encontrar regresara un re
     0,null,null,null
 
 ## Créditos
-Sistema creado por Jose Francisco Rosas.
+Sistema creado por Jose francisco Rosas.
 ## Licencia
 Este programa se publica bajo la licencia [Apache v2.0](https://www.apache.org/licenses/LICENSE-2.0).
